@@ -1,0 +1,7 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  EC2Instance:
+    Type: "AWS::EC2::Instance"
+    ImageId: "ami-089a545a9ed9893b6"
+    InstanceType: "t2.small"
